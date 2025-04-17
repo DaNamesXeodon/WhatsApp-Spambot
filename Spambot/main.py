@@ -3,7 +3,7 @@ import time
 import pyKey
 import pyautogui
 
-def sendMessage(whatPath:str, msg:str, dest:str, reps:int = 1):
+def sendWhatsAppMessage(whatPath:str, msg:str, dest:str, reps:int = 1):
     """
     Send a whatsapp Message.
     args:
